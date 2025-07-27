@@ -26,7 +26,7 @@ This project, **excluding the embedded TwitchLib library**, is licensed under th
 * **You MAY NOT:**
     * **Use this code for commercial purposes** (e.g., selling it, incorporating it into paid products or services, or using it to generate direct monetary gain).
 
-The full text of the license is available in the [LICENSE](LICENSE) file within this repository.
+The full text of the license is available in the LICENSE file within this repository.
 
 ## Third-Party Libraries
 
@@ -59,7 +59,7 @@ This project uses the [TwitchLib](https://github.com/TwitchLib/TwitchLib) librar
 * **Вы НЕ МОЖЕТЕ:**
     * **Использовать этот код в коммерческих целях** (например, продавать его, включать в платные продукты или услуги).
 
-Полный текст лицензии доступен в файле [LICENSE](LICENSE) в этом репозитории.
+Полный текст лицензии доступен в файле LICENSE в этом репозитории.
 
 ## Используемые библиотеки
 
