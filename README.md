@@ -1,5 +1,3 @@
-# zxcBots
-
 # ZxcBots - A Simple Twitch Bot
 
 This repository contains the core (base) code for ZxcBots - a simple and extendable Twitch bot designed to help streamers manage their chat and automate routine tasks.
