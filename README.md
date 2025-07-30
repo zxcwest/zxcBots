@@ -82,9 +82,10 @@ Here’s what ZxcBots can do out of the box:
 - ⚙ **Custom commands** — easily configurable
 - ❌ **Mass-ban** — ban users based on keywords
 - 📊 **Polls & Predictions** — directly from Twitch API
-- 🧠 **Frequent word stats** — shows commonly used words
+- 🧠 **Counting the words you specify
 - 🌍 **Live translation** — automatically translates English chat messages to Russian
 - ✨ **Extendability** — easily write your own logic with built-in wrappers
+- 📝 **Keeping a full chat log in .txt format by day
 
 ---
 
@@ -208,9 +209,10 @@ dotnet run
 - ⚙ **Кастомные команды**
 - ❌ **Массовый бан** — по ключевым словам
 - 📊 **Опросы и прогнозы**
-- 🧠 **Статистика слов** за стрим
+- 🧠 **Подсчёт слов которые вы укажите
 - 🌍 **Авто-перевод** с английского на русский
 - ✨ **Гибкое расширение** — можно писать свои модули
+- 📝 **Ведение полного лога чата в .txt формате по дням
 
 ---
 
