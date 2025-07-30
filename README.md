@@ -26,7 +26,7 @@ It works either with:
 ### 🔑 Required Twitch OAuth Scopes
 
 To ensure full functionality, the bot needs the following Twitch API scopes:
-
+https://twitchtokengenerator.com/
 - `chat:read` — read chat messages
 - `chat:edit` — send chat messages
 - `channel:manage:polls` / `channel:read:polls` — manage and read polls
@@ -155,7 +155,7 @@ See the LICENSE file for full terms.
 ### 🔑 Требуемые права Twitch (OAuth)
 
 Для корректной работы необходимы следующие права:
-
+https://twitchtokengenerator.com/
 - `chat:read` — чтение сообщений
 - `chat:edit` — отправка сообщений
 - `channel:manage:polls` / `channel:read:polls` — управление/чтение опросов
