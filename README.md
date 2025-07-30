@@ -3,7 +3,8 @@
 [🇬🇧 English](#english-version) | [🇷🇺 Русский](#russian-version)
 
 
-# ZxcBots - A Simple Twitch Bot
+## English Version
+### ZxcBots - A Simple Twitch Bot
 
 This repository contains the core (base) code for ZxcBots — a simple and extendable Twitch bot designed to help streamers manage their chat and automate routine tasks.
 
@@ -131,7 +132,9 @@ See the LICENSE file for full terms.
 
 ---
 
-# 🇷🇺 ZxcBots — Простой Twitch Бот
+## Russian Version
+
+### 🇷🇺 ZxcBots — Простой Twitch Бот
 
 Этот репозиторий содержит основной код ZxcBots — простого и расширяемого Twitch-бота, созданного для помощи стримерам в управлении чатом и автоматизации рутинных задач.
 
