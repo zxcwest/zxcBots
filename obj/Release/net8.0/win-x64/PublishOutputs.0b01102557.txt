@@ -1,0 +1,2 @@
+C:\Users\Yuri7\source\repos\TwitchChatBot\bin\Release\net8.0\win-x64\publish\TwitchChatBot.pdb
+C:\Users\Yuri7\source\repos\TwitchChatBot\bin\Release\net8.0\win-x64\publish\TwitchChatBot.exe
