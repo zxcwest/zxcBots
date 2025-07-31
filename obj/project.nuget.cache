@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9z8/qjt0Va8=",
+  "dgSpecHash": "Jp1Nbpfl+q8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\TwitchChatBot.csproj",
+  "projectFilePath": "C:\\Users\\Yuri7\\OneDrive\\Документы\\GitHub\\zxcBots\\TwitchChatBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuri7\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Yuri7\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
@@ -102,9 +102,9 @@
     "C:\\Users\\Yuri7\\.nuget\\packages\\twitchlib.eventsub.core\\2.0.0\\twitchlib.eventsub.core.2.0.0.nupkg.sha512",
     "C:\\Users\\Yuri7\\.nuget\\packages\\twitchlib.eventsub.websockets\\0.0.3\\twitchlib.eventsub.websockets.0.0.3.nupkg.sha512",
     "C:\\Users\\Yuri7\\.nuget\\packages\\twitchlib.pubsub\\3.2.6\\twitchlib.pubsub.3.2.6.nupkg.sha512",
-    "C:\\Users\\Yuri7\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.13\\microsoft.netcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\Yuri7\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
     "C:\\Users\\Yuri7\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.13.nupkg.sha512",
-    "C:\\Users\\Yuri7\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x64.8.0.13.nupkg.sha512"
+    "C:\\Users\\Yuri7\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.13\\microsoft.netcore.app.runtime.win-x64.8.0.13.nupkg.sha512"
   ],
   "logs": []
 }

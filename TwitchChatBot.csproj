@@ -9,14 +9,32 @@
 		<PublishSingleFile>true</PublishSingleFile>
 		<SelfContained>true</SelfContained>
 		<PublishTrimmed>false</PublishTrimmed>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Copyright>zxcWest</Copyright>
+		<RepositoryUrl>https://github.com/zxcwest/zxcBots</RepositoryUrl>
+		<RepositoryType>github</RepositoryType>
+		<AssemblyVersion>1.0</AssemblyVersion>
+		<FileVersion>1.0</FileVersion>
+		<Authors>$(AssemblyName), zxcWest</Authors>
+		<Company>$(Authors), zxcWest</Company>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="TwitchLib\**" />
+	  <EmbeddedResource Remove="TwitchLib\**" />
+	  <None Remove="TwitchLib\**" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="TwitchLib" Version="3.5.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="TwitchLib\Api\Helix\Models\Predictions\CreatePrediction\" />
+	  <None Update="LICENSE.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
