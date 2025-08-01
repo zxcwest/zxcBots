@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yuri7\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\zxcBots\\",
+  "WorkspaceRootPath": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|c:\\users\\yuri7\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\zxcbots\\twitchchatbot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|solutionrelative:twitchchatbot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|c:\\users\\yuri7\\source\\repos\\twitchchatbot\\twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|solutionrelative:twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|c:\\users\\yuri7\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\zxcbots\\twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|solutionrelative:twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|c:\\users\\yuri7\\source\\repos\\twitchchatbot\\banword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|solutionrelative:banword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|c:\\users\\yuri7\\source\\repos\\twitchchatbot\\banwordloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|solutionrelative:banwordloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|c:\\users\\yuri7\\source\\repos\\twitchchatbot\\banwordconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7998DC04-E8F7-4EE7-B45F-26A2ADC7680C}|TwitchChatBot.csproj|solutionrelative:banwordconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TwitchChatBot",
-              "DocumentMoniker": "C:\\Users\\Yuri7\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\zxcBots\\TwitchChatBot.csproj",
-              "RelativeDocumentMoniker": "TwitchChatBot.csproj",
-              "ToolTip": "C:\\Users\\Yuri7\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\zxcBots\\TwitchChatBot.csproj",
-              "RelativeToolTip": "TwitchChatBot.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-31T07:41:45.409Z",
+              "DocumentIndex": 1,
+              "Title": "Banword.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\Banword.cs",
+              "RelativeDocumentMoniker": "Banword.cs",
+              "ToolTip": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\Banword.cs",
+              "RelativeToolTip": "Banword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:32:39.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "BanwordConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\BanwordConfig.cs",
+              "RelativeDocumentMoniker": "BanwordConfig.cs",
+              "ToolTip": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\BanwordConfig.cs",
+              "RelativeToolTip": "BanwordConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:32:19.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BanwordLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\BanwordLoader.cs",
+              "RelativeDocumentMoniker": "BanwordLoader.cs",
+              "ToolTip": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\BanwordLoader.cs",
+              "RelativeToolTip": "BanwordLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:31:50.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TwitchClientContainer.cs",
-              "DocumentMoniker": "C:\\Users\\Yuri7\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\zxcBots\\TwitchClientContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\TwitchClientContainer.cs",
               "RelativeDocumentMoniker": "TwitchClientContainer.cs",
-              "ToolTip": "C:\\Users\\Yuri7\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\zxcBots\\TwitchClientContainer.cs",
+              "ToolTip": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\TwitchClientContainer.cs",
               "RelativeToolTip": "TwitchClientContainer.cs",
-              "ViewState": "AgIAAAQBAAAAAAAAAAA3wBsBAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFwAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T09:35:56.949Z",
               "EditorCaption": ""

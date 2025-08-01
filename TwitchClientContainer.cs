@@ -98,7 +98,7 @@ namespace TwitchChatBot
             command = new Command();
             poll = new Poll();
             prediction = new Prediction();
-            banword = new Banword();
+            banword = new Banword("banwords.json");
             eventSystem = new EventSystem();
             taro = new TaroCardFolter();
             //Соеденение с твичом

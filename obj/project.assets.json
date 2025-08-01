@@ -7029,11 +7029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yuri7\\OneDrive\\Документы\\GitHub\\zxcBots\\TwitchChatBot.csproj",
+      "projectUniqueName": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\TwitchChatBot.csproj",
       "projectName": "TwitchChatBot",
-      "projectPath": "C:\\Users\\Yuri7\\OneDrive\\Документы\\GitHub\\zxcBots\\TwitchChatBot.csproj",
+      "projectPath": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\TwitchChatBot.csproj",
       "packagesPath": "C:\\Users\\Yuri7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yuri7\\OneDrive\\Документы\\GitHub\\zxcBots\\obj\\",
+      "outputPath": "C:\\Users\\Yuri7\\source\\repos\\TwitchChatBot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

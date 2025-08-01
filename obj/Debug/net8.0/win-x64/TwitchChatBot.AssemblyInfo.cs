@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TwitchChatBot, zxcWest, zxcWest")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TwitchChatBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("zxcWest")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c481ec97c1ed3ed3551550b0f1829bd67a37586")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c898b5e88535e6c40001a08cc27588976f0014df")]
 [assembly: System.Reflection.AssemblyProductAttribute("TwitchChatBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TwitchChatBot")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/zxcwest/zxcBots")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
