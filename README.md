@@ -26,7 +26,7 @@ It works either with:
 ### 🔑 Required Twitch OAuth Scopes
 
 To ensure full functionality, the bot needs the following Twitch API scopes:
-https://twitchtokengenerator.com/
+[twitchtokengenerator](https://twitchtokengenerator.com/?code=es35a9vskyzgilaudllqfexxvy84sp&scope=user%3Aread%3Aemail+chat%3Aread+chat%3Aedit+channel%3Amoderate+channel%3Aread%3Asubscriptions+moderation%3Aread+channel%3Aread%3Aredemptions+channel%3Amanage%3Abroadcast+channel%3Amanage%3Apolls+channel%3Amanage%3Apredictions+channel%3Aread%3Apolls+channel%3Aread%3Apredictions+moderator%3Amanage%3Abanned_users+moderator%3Amanage%3Achat_messages+channel%3Aread%3Avips+moderator%3Aread%3Afollowers&state=frontend%7CZ3M4TWNvWENaVWYxQXhJdFNOMkJuQT09) This website will help you assign the necessary permissions for your bot.
 - `chat:read` — read chat messages
 - `chat:edit` — send chat messages
 - `channel:manage:polls` / `channel:read:polls` — manage and read polls
@@ -155,7 +155,7 @@ See the LICENSE file for full terms.
 ### 🔑 Требуемые права Twitch (OAuth)
 
 Для корректной работы необходимы следующие права:
-https://twitchtokengenerator.com/
+[twitchtokengenerator](https://twitchtokengenerator.com/?code=es35a9vskyzgilaudllqfexxvy84sp&scope=user%3Aread%3Aemail+chat%3Aread+chat%3Aedit+channel%3Amoderate+channel%3Aread%3Asubscriptions+moderation%3Aread+channel%3Aread%3Aredemptions+channel%3Amanage%3Abroadcast+channel%3Amanage%3Apolls+channel%3Amanage%3Apredictions+channel%3Aread%3Apolls+channel%3Aread%3Apredictions+moderator%3Amanage%3Abanned_users+moderator%3Amanage%3Achat_messages+channel%3Aread%3Avips+moderator%3Aread%3Afollowers&state=frontend%7CZ3M4TWNvWENaVWYxQXhJdFNOMkJuQT09) Этот сайт поможет вам присвоить нужные разрешения для вашего бота.
 - `chat:read` — чтение сообщений
 - `chat:edit` — отправка сообщений
 - `channel:manage:polls` / `channel:read:polls` — управление/чтение опросов
