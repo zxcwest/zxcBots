@@ -1,10 +1,11 @@
 # ZxcBots — Simple Twitch Bot
-
-RU
+---
+# RU
 Добрый день! Из-за отсутствия возможности подписывать исполняемые файлы цифровой подписью, некоторые антивирусы могут выдавать предупреждения при их запуске. Чтобы избежать этого, в будущих релизах я буду публиковать только исходные файлы и необходимые конфигурации. Вы сможете скомпилировать программу самостоятельно или обратиться ко мне за готовым исполняемым файлом. Благодарю за понимание!
-EN
+---
+# EN
 Hello! Due to the lack of an official digital signature for the executable files, some antivirus programs may show warnings upon launch. To avoid this, in future releases, I will publish only the source files and necessary configurations. You can compile the program yourself or contact me for a pre-compiled executable file. Thank you for your understanding!
-
+---
 [🇬🇧 English](#english-version) | [🇷🇺 Русский](#russian-version)
 
 
