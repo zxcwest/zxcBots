@@ -18,6 +18,7 @@ namespace TwitchChatBot
         public string botOAuth;
         public string brodcasterOAuth;
         public string chanelTwitch;
+        public string apiFaceit;
 
         // Закрытые ключи и поля
         public string secretKey;
@@ -35,6 +36,7 @@ namespace TwitchChatBot
         private EventSystem eventSystem;
         private TaroCardFolter taro;
         private EventTwitchWss eventSubTwitch;
+        private Faceit faceit;
 
         //Логические переменные
         public static DateTime lastRozyskTime = DateTime.MinValue;
@@ -73,6 +75,7 @@ namespace TwitchChatBot
             client = new TwitchClient();
             eventSubTwitch = new EventTwitchWss();
 
+
             // Создаём учётные данные Требуется только для бота
             credentials = new ConnectionCredentials(botUsername, "oauth:" + botOAuth);
 
@@ -101,6 +104,7 @@ namespace TwitchChatBot
             banword = new Banword("banwords.json");
             eventSystem = new EventSystem();
             taro = new TaroCardFolter();
+            faceit = new Faceit(apiFaceit);
             //Соеденение с твичом
             client.Connect();
             await SetupIdModAndBrodcaster(); //Инициализация айди стример + модератор
@@ -158,7 +162,7 @@ namespace TwitchChatBot
             }
         }
         //Вызов команд
-        private void ChatCommand(object? sender, OnChatCommandReceivedArgs e)
+        private async void ChatCommand(object? sender, OnChatCommandReceivedArgs e)
         {
             switch (e.Command.CommandText.ToLower())
             {
@@ -212,7 +216,17 @@ namespace TwitchChatBot
                     break;
                 case "таро":
                     TaroCard randomCard = taro.GetRandomCard();
-                    SendMessage($"{e.Command.ChatMessage.Username} тебе выпал {randomCard.Name} она означает {randomCard.Description} Для более детального расклада обратитесь к стримеру.");
+                    SendReplay($"{e.Command.ChatMessage.Username} тебе выпал {randomCard.Name} она означает {randomCard.Description} Для более детального расклада обратитесь к стримеру.", e.Command.ChatMessage.Id);
+                    break;
+                case "faceit":
+                    string resultFaceit = e.Command.ChatMessage.Message.Substring("!faceit ".Length).Trim();
+                    string messageFaceit = await faceit.GetAverageKillsAsync(resultFaceit);
+                    SendReplay(messageFaceit, e.Command.ChatMessage.Id);
+                    break;
+                case "elo":
+                    string resultElo = e.Command.ChatMessage.Message.Substring("!elo ".Length).Trim();
+                    string messageElo = await faceit.GetPlayerElo(resultElo);
+                    SendReplay(messageElo, e.Command.ChatMessage.Id);
                     break;
                 default:
                     break;
@@ -235,7 +249,7 @@ namespace TwitchChatBot
             eventSystem.WordEventSave(message);
             //Скипаем проверку все сообщения от модеров
             if (e.ChatMessage.IsModerator)
-            return;
+                return;
             //Отстранить за бан слова в списке ниже
             if (banword.ContainsBannedWord(message))
             {
@@ -277,6 +291,14 @@ namespace TwitchChatBot
         {
             if (client.JoinedChannels.Count > 0)
                 client.SendMessage(client.JoinedChannels[0], message);
+
+
+        }
+        //Ответ на сообщение
+        public static void SendReplay(string message, string replayId)
+        {
+            if (client.JoinedChannels.Count > 0)
+                client.SendReply(client.JoinedChannels[0], replayId, message);
         }
         public void LoadConfig(string configPatch)
         {
@@ -298,6 +320,7 @@ namespace TwitchChatBot
             comandDiscord = config.discord;
             comandDonat = config.donat;
             comandTelegram = config.telegram;
+            apiFaceit = config.faceitAPI;
         }
     }
 }

@@ -23,6 +23,7 @@ namespace TwitchChatBot
         public string donat { get; set; }
         public string telegram { get; set; }
         public string discord { get; set; }
+        public string faceitAPI { get; set; }
 
     }
 }
