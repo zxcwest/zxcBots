@@ -86,6 +86,7 @@ Here’s what ZxcBots can do out of the box:
 - 🌍 **Live translation** — automatically translates English chat messages to Russian
 - ✨ **Extendability** — easily write your own logic with built-in wrappers
 - 📝 **Keeping a full chat log in .txt format by day
+- 🎮 Calling statistics from Faceit
 
 ---
 
@@ -213,7 +214,7 @@ dotnet run
 - 🌍 **Авто-перевод** с английского на русский
 - ✨ **Гибкое расширение** — можно писать свои модули
 - 📝 **Ведение полного лога чата в .txt формате по дням
-
+- 🎮 Вызов статистики с Faceit 
 ---
 
 ### 🛠 Разработка
